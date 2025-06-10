@@ -1,0 +1,23 @@
+.presentacion{
+    padding:0px;
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left:80px ;
+    top: 80px;
+    animation: parte1 1s linear infinite alternate
+}
+
+
+@keyframes parte1 {
+    0%{border-radius: 600px 600px 0px 600px}
+    50%{border-radius: 0px 600px 600px 600px}
+    75%{border-radius: 600px  0px  600px 600px}
+    100%{border-radius: 600px 600px 600px 0px}
+};
